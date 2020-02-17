@@ -32,6 +32,12 @@ class Register extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 10.0,),
+            TextField(
+              decoration: InputDecoration(
+                hintText: "Enter a username"
+              ),
+            ),
+            SizedBox(height: 10.0,),
             RaisedButton(
             child: Text("Sign up"),
             onPressed: (){},
